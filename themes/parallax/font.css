@@ -1,0 +1,9 @@
+@font-face {
+  font-family: cunia;
+  src: url('/themes/parallax/font/Cunia.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: aqua;
+  src: url('/themes/parallax/font/aqua.ttf')  format('truetype');
+}

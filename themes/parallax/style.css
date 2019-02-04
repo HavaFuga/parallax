@@ -1,0 +1,165 @@
+ /* ---GENERAL--- */
+#PoweredByFooter {
+    display: none!important;
+}
+
+body, html {
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+#content {
+    font-size: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+}
+
+.h1, h1 {
+    font-family: aqua;
+    text-transform: uppercase;
+}
+
+.h2, h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 7vh;
+    font-family: aqua;
+    text-shadow: black 1px 1px 1px;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color:red;
+  z-index: 10;
+}
+
+#logo {
+    width: 65px;
+}
+
+.navbar-brand {
+    transition: all .2s ease-in-out;
+    margin-top: -40px;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+/* ---NAVBAR---*/
+.navbar {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    font-size: 2rem;
+    padding: 20px 0 0 0;
+}
+a.nav-link {
+    color: white;
+    font-family: aqua;
+    padding: 25px!important;
+    transition: all 1s;
+}
+
+.container{
+    height: auto;
+}
+
+li.nav-item {
+    transition: all .2s ease-in-out;
+}
+li.nav-item:hover {
+    transform: scale(1.2);
+}
+
+/* MAPS */
+.maps {
+    width: 100%;
+    height: 450px;
+}
+
+
+/* ---HOME--- */
+.site_home .navbar {
+
+}
+.home_img,
+.home_header {
+    width: 100%;
+    height: 600px;
+}
+
+.header_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home_text {
+    padding: 45px 0;
+}
+/* ---PARALLAX--- */
+#background.site_home,
+#background.site_content{
+   perspective: 1px;
+   transform-style: preserve-3d;
+   height: 100vh;
+}
+
+.parallax {
+  /* Full height */
+  height: 35%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(65%);
+}
+
+.parallax_big {
+    height: 60%;
+}
+
+.parallax_frontpage {
+    height: 48%;
+}
+
+#parallax_1 {
+    /* The image used */
+    background-image: url('/themes/parallax/images/other/four_coffee_plant.jpg');
+}
+
+#parallax_2 {
+    /* The image used */
+    background-image: url('/themes/parallax/images/other/coffee_pink_cake.jpg');
+}
+
+#parallax_3 {
+    /* The image used */
+    background-image: url('/themes/parallax/images/other/two_coffee_plant.jpg');
+}
+
+.parallax_title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    z-index: 1;
+}
+
+.parallax_untertitle {
+    position: relative;
+    top: 35%;
+}
+
+.parallax_title h1 {
+    font-size: 10vh;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
